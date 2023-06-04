@@ -61,6 +61,7 @@ nav ul li a:hover::after{
 .headerText{
     margin-top: 19%;
     font-size: 30px;
+ 
 }
 .headerText h1{
     margin-top: 1%;
@@ -131,7 +132,7 @@ width: 50%;
 display: block;
 }
 /* --------------------Projects------------------- */
-#projects{
+#pojects{
     padding: 50px 0;
 
 }
@@ -165,15 +166,15 @@ display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     transition:height 0.5s ;
   
 }
 .layer h3{
-   font-weight: 500;
-   margin-bottom: 20px;
+   font-weight: 400;
+   margin-bottom: 10px;
 }
 .link{
   width: 70%;
@@ -300,6 +301,11 @@ cursor:pointer;
 nav .fa-sharp,nav .fa-solid{
     display: none;
 }
+@media only screen and (min-width:700px){
+    .headerText{
+        width: 70%;
+    }
+}
 @media only screen and (max-width:600px){
     #header{
       background-position: right;
@@ -382,7 +388,7 @@ nav .fa-sharp,nav .fa-solid{
     font-size: 12px;
     padding:0 0px;
    }
-   #portfolio{
+   #projects{
     margin-top:-50px;
    }
    .contact-left p{

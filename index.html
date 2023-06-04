@@ -15,12 +15,12 @@
         <nav>
             <img src="/images/logo.png" alt="praveshLogo" width="20%">
             <ul id="sidemenu">
-                <li><a class="nav-link home"  href="#header">Home</a></li>
+                <li><a class="nav-link home"  href="#home">Home</a></li>
                 <li><a class="nav-link about" href="#about">About</a></li>
                 <li><a class="nav-link skills" href="#skills">Skills</a></li>
                 <li><a class="nav-link projects" href="#projects">Projects</a></li>
 
-                <li><a class="contact" href="#contact">Contact</a></li>
+                <li><a class="nav-link contact" href="#contact">Contact</a></li>
                 <li><button id="resume-link-1" onclick="resume()" class="nav-link resume" style="border: none;background: none;">
                 <a href="/images/Pravesh_Sharma_Resume.pdf" download >Resume</a></button></li>
                 <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -40,7 +40,7 @@
    </div> 
    <!-- -----------------about------------- -->
    <div id="about" class="about section">
-    <div class="container">
+    <div id="home" class="container">
         <div class="row">
          
             <div class="about-col-2">
@@ -664,7 +664,7 @@
                              <span class="text-muted">Last contributed in June 3.</span></div></div>
   </div>
    <!-- ---------------------projects---------------- -->
-   <div id="portfolio">
+   <div id="projects">
     <div class="container">
         <h1 class="sub-title">Projects</h1>
         <div class="work-List">
@@ -672,8 +672,7 @@
                 <img src="./images/tiny_toies.png" alt="tinytoies">
                 <div class="layer">
                     <h3 class="project-title">Tiny Toies</h3>
-                    <p class="project-description">It's e-commerce website 
-                        providing clothing and accessories for kids and infants.This collaborative project was built in a span of 5 days. 
+                    <p class="project-description">It's e-commerce website providing clothing and accessories for kids and infants.This collaborative project was built in a span of 5 days. 
                     </p>
                     <p class="project-tech-stack" style="font-size: 11px;">Tech Stack : HTML | CSS | JavaScript | MockApi | Google | charts</p>
                          
@@ -688,10 +687,10 @@
                 <img src="/images/stock_broker.png" alt="Stock_broker">
                 <div class="layer">
                     <h3 class="project-title">Stock Broker System</h3>
-                    <p class="project-description">A console-based system with the ability to add , update, fetch and delete stocks and customer. <br>An Individual project built within a span of 5 days.
+                    <p class="project-description">A console-based system with the ability to add , update, fetch and delete stocks and customer. <br>An Individual project built within a span of 5 days.</p>
                 
-                        </p>
-                        <p class="project-tech-stack">Tech Stack:JAVA</p>
+                        
+                        <p class="project-tech-stack" style="font-size: 11px;">Tech Stack:JAVA</p>
                         <div class="link deploy">
                             <a class="project-deployed-link" href="https://drive.google.com/file/d/1AaG3kgDUz0fSClJGyWd5nQvPj9Yn7L50/view"><i class="fa-solid fa-up-right-from-square"></i></a>
                             <a  class="project-github-link" href="https://github.com/chiku7296/Stock_broker_System/tree/main/evaluation"><i class="fa-brands fa-github"></i></a>
@@ -742,6 +741,7 @@
             <h1 class="sub-title">Contact Me</h1>
             <p id="contact-email"><i class="fa-solid fa-paper-plane"></i>ps7296915528@gmail.com</p>
             <p id="contact-phone"><i class="fa-solid fa-phone"></i>7296915528</p>
+            <p id="contact-github"><i class="fa-brands fa-github"></i>Gihub</p>
            <div class="social-icons">
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
