@@ -241,11 +241,17 @@ transform: scale(1.1);
 }
 .social-icons a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
     margin-right: 15px;
     color: #ababab;
-    display: inline-block;
+    display: block;
     transition: 0.5s;
+       margin-top: 25px;
+  
+}
+.social-icons a i{
+    color: #ff004f;
+    margin-right: 15px;
 }
 .social-icons a:hover{
     color: #ff004f;
@@ -351,6 +357,9 @@ nav .fa-sharp,nav .fa-solid{
             top: 25px;
             left: 25px;
             cursor: pointer;
+    }
+    .headerText #user-detail-intro{
+        display: none;
     }
     .headerText{
         margin-top: 40%;
