@@ -11,7 +11,7 @@ body{
     background-color:black;
 color: #fff;
 }
-#header{
+#home{
    
     width: 100%;
     height: 110vh;
@@ -132,7 +132,7 @@ width: 50%;
 display: block;
 }
 /* --------------------Projects------------------- */
-#pojects{
+#projects{
     padding: 50px 0;
 
 }
@@ -307,7 +307,7 @@ nav .fa-sharp,nav .fa-solid{
     }
 }
 @media only screen and (max-width:600px){
-    #header{
+    #home{
       background-position: right;
        /* background-color: red; */
        height: 80vh;
