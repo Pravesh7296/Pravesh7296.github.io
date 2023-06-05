@@ -94,7 +94,7 @@ nav ul li a:hover::after{
 #about{
    padding: 40px 0;
     color: #ababab;
-    /* background-color: red; */
+     
     margin-top: 50px;
 }
 .row{
@@ -324,13 +324,20 @@ cursor:pointer;
 .copyright i{
     color: #ff004f;
 }
+.headerText{
+    width: 70%;
+}
 /* -------------------css for small screen------------- */
 nav .fa-sharp,nav .fa-solid{
     display: none;
 }
-@media only screen and (min-width:700px){
+@media only screen and (max-height:350px){
     .headerText{
         width: 70%;
+    }
+    #about{
+        margin-top: 60vh;
+        background-color: red;
     }
 }
 @media only screen and (max-width:600px){
