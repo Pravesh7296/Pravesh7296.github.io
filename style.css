@@ -4,6 +4,14 @@
     font-family: 'Poppins',sans-serif ;
     box-sizing: border-box;
 }
+.github-content-wrapper{
+    
+}
+.github-content.container{
+    background-color:red ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 html{
     scroll-behavior: smooth;
 }
@@ -87,6 +95,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 20px;
 }
 .about-col-2{
     font-size: 19px;
@@ -380,7 +389,8 @@ nav .fa-sharp,nav .fa-solid{
         
     }
     .sub-title{
-        font-size: 38px;
+        font-size: 35px;
+        
 
     }
     .about-col-2{
