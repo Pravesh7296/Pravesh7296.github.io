@@ -50,6 +50,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: black;
 }
 nav ul li{
     display: inline-block;
