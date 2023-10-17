@@ -22,7 +22,7 @@
 
                 <li><a class="nav-link contact" href="#contact">Contact</a></li>
                 <li><button id="resume-button-1" onclick="resume()" class="nav-link resume" style="border: none;background: none;">
-                <a id="resume-link-1" href="/images/Pravesh_Sharma_Resume.pdf" download >Resume</a></button></li>
+                <a id="resume-link-1" href="/images/Pravesh-Sharma-Resume.pdf" download >Resume</a></button></li>
                 <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -52,7 +52,9 @@
             <p class="tab-Links active-Link" onclick="opentab('skills')">Skills</p>
            
             <p class="tab-Links" onclick="opentab('Education')">Education</p>
-          </div>  
+            <p class="tab-Links" onclick="opentab('tools')">Tools</p>
+        </div>
+
           <div class="tab-contents active-tab" id="skills">
             <ul style="display:grid;text-align: center;width: 40%;grid-template-columns: repeat(3,1fr);row-gap: 20px;">
                 <div class="skills-card">
@@ -75,6 +77,25 @@
                     <img class= "skills-card-img" src="./images/html.png" alt="" width="30px">
                     <p class="skills-card-name" style="font-size: 12px;">Html</p>
                 </div>
+                
+                <div class="skills-card">
+                    <img class= "skills-card-img" src="./images/GitHub-Mark.png" alt="" width="35px">
+                    <p class="skills-card-name" style="font-size: 12px;">Github</p>
+                </div>
+               
+                
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="tools">
+            <ul style="display:grid;text-align: center;width: 40%;grid-template-columns: repeat(3,1fr);row-gap: 20px;">
+               
+                
+                <div class="skills-card">
+                    <img class= "skills-card-img" src="./images/hibernate.png" alt="" width="30px">
+                    <p class="skills-card-name" style="font-size: 12px;">Hibernate</p>
+                </div>
+               
+               
                 <div class="skills-card">
                     <img class= "skills-card-img" src="./images/spring.png" alt="" width="35px">
                     <p class="skills-card-name" style="font-size: 12px;">Spring</p>
@@ -91,6 +112,10 @@
                     <img class= "skills-card-img" src="./images/github.png" alt="" width="35px">
                     <p class="skills-card-name" style="font-size: 12px;">Git</p>
                 </div>
+                <div class="skills-card">
+                    <img class= "skills-card-img" src="./images/Maven_logo.gif" alt="" width="70px">
+                    <p class="skills-card-name" style="font-size: 12px;">Maven</p>
+                </div>
                 
             </ul>
           </div>
@@ -102,9 +127,9 @@
                <li>2016,Sr. Sec. School<br><span>JhunJhunu Academy</span></li>
             </ul>
           </div>
-
+                
             </div>
-
+          
         </div>
     </div>
    </div>
@@ -781,11 +806,13 @@
    <script>
     var tablinks = document.getElementsByClassName("tab-Links");
     var tabcontents = document.getElementsByClassName("tab-contents");
+    var tabcontents1 = document.getElementsByClassName("tab-contents1");
 function opentab(tabname){
     for(tablink of tablinks){
         tablink.classList.remove("active-Link");
 
     }
+
     for(tabcontent of tabcontents){
         tabcontent.classList.remove("active-tab");
         
@@ -793,6 +820,7 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-Link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+
    </script>
    <script>
     var sidemeu=document.getElementById("sidemenu");
@@ -803,10 +831,10 @@ function opentab(tabname){
         sidemeu.style.right="-200px";
     }
     function resume(){
-        window.open("/images/Pravesh_Sharma_Resume.pdf","_blank");
+        window.open("/images/Pravesh-Sharma-Resume.pdf","_blank");
     }
     function resume2(){
-        window.open("/images/Pravesh_Sharma_Resume.pdf","_blank");
+        window.open("/images/Pravesh-Sharma-Resume.pdf","_blank");
     }
    </script>
    
