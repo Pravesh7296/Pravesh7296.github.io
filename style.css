@@ -92,29 +92,37 @@ nav ul li a:hover::after{
 }
 /* -------------------about-------------- */
 #about{
-   padding: 40px 0;
+   padding: 40px 0px;
     color: #ababab;
      
     margin-top: 50px;
+   
 }
 .row{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
+    
 }
 
 .sub-title{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
+    margin-left: 40%;
+   
 }
 .about-col-2{
     font-size: 19px;
+    
 }
 .tab-titles{
     display: flex;
     margin: 50px 0 40px;
+  
+  
     
 }
 .tab-Links{
@@ -123,6 +131,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     cursor: pointer;
     position: relative;
+   
 }
 .tab-Links::after{
     content: '';
@@ -134,6 +143,7 @@ nav ul li a:hover::after{
     bottom: -8px;
     transition: 0.5s;
     
+    
 }
 .tab-Links.active-Link::after{
 width: 50%;
@@ -141,18 +151,34 @@ width: 50%;
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    font-size: 19px;
+  
 }
 .tab-contents ul li span{
   color: #b54769;
-  font-size: 14px;
+  font-size: 16px;
 }
 .tab-contents{
-    display: none;
+      display: none;
+      
 }
 .tab-contents.active-tab{
 display: block;
-}
 
+}
+.skills-card>img{
+  width: 40%;
+}
+#skills>ul{
+    
+    row-gap: 20%;
+    column-gap: 20%;
+   }
+   #tools>ul{
+    
+    row-gap: 20%;
+    column-gap: 20%;
+   }
 /* --------------------Projects------------------- */
 #projects{
     padding: 50px 0;
@@ -342,6 +368,17 @@ nav .fa-sharp,nav .fa-solid{
         margin-top: 60vh;
      
     }
+    #skills>ul{
+    
+        row-gap: 20%;
+        column-gap: 20%;
+       }
+    
+       #tools>ul{
+        
+        row-gap: 20%;
+        column-gap: 20%;
+       }
 }
 @media only screen and (max-width:600px){
     #home{
@@ -426,6 +463,8 @@ nav .fa-sharp,nav .fa-solid{
     }
     .sub-title{
         font-size: 35px;
+        margin-bottom: 2%;
+        margin-left: 20%;
         
 
     }
@@ -449,4 +488,20 @@ nav .fa-sharp,nav .fa-solid{
    .contact-left p{
     margin-top: -10px;
    }
+   .skills-card>img{
+    width: 80%;
+
+    
+   }
+   #skills>ul{
+    
+    row-gap: 20%;
+    column-gap: 20%;
+   }
+   #tools>ul{
+    
+    row-gap: 20%;
+    column-gap: 20%;
+   }
+  
 }
