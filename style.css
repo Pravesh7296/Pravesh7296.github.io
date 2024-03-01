@@ -167,17 +167,23 @@ display: block;
 
 }
 .skills-card>img{
-  width: 40%;
+ width: 20%;
+ 
+}
+#skills{
+    width: 60%;
+    
+}
+#tools{
+    width: 60%;
 }
 #skills>ul{
-    
     row-gap: 20%;
-    column-gap: 20%;
+   
    }
    #tools>ul{
-    
     row-gap: 20%;
-    column-gap: 20%;
+    
    }
 /* --------------------Projects------------------- */
 #projects{
@@ -368,6 +374,12 @@ nav .fa-sharp,nav .fa-solid{
         margin-top: 60vh;
      
     }
+    #skills{
+        width: 100%;
+    }
+    #tools{
+        width: 100%;
+    }
     #skills>ul{
     
         row-gap: 20%;
@@ -490,13 +502,19 @@ nav .fa-sharp,nav .fa-solid{
    }
    .skills-card>img{
     width: 80%;
-
-    
+    /* background-color: red; */
    }
+   #skills{
+    width: 100%;
+   }
+
    #skills>ul{
     
     row-gap: 20%;
     column-gap: 20%;
+   }
+   #tools{
+    width: 100%;
    }
    #tools>ul{
     
